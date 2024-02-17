@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav,
+.items {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.09);
+  border-radius: 2px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  /* border: 1px solid rgba(255, 255, 255, 0.3); */
+  /* border: 1px solid #EEC759; */
+}
+
+.anim {
+  transition: all 0.2s;
+}
+
+.itemss {
+  text-align: center;
+  border-radius: 2px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  /* border: 1px solid rgba(255, 255, 255, 0.3); */
+  border: 1px solid black;
+}
+
+li {
+  text-decoration: none;
+}
+
+.btn {
+  text-align: center;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  --tw-bg-opacity: 1;
+  border: 2px solid rgb(96 165 250 / var(--tw-bg-opacity));
+  transition: all 0.2s;
+}
+
+.heading {
+  font-size: 85px;
+  font-weight: bolder;
+  --tw-bg-opacity: 1;
+  background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(59 130 246));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+body {
+  /* background-image: radial-gradient(
+    circle,
+    #340537,
+    #2d0626,
+    #240519,
+    #18020d,
+    #000000
+  ); */
+  overflow-x: hidden;
+}
+
+.dropdown {
+  z-index: 999;
+}
+
+::-webkit-scrollbar-track {
+  --tw-bg-opacity: 1.5;
+  background: rgb(139 92 246 / var(--tw-bg-opacity));
+}
+
+::-webkit-scrollbar-thumb {
+  --tw-bg-opacity: 1.5;
+  background: black;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  height: 5px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+}
+::-webkit-scrollbar-track {
+  background: #fff;
+  border: 1px solid #ccc;
+}
+
+input:focus {
+  outline: none;
+}
+
+input {
+  color: black !important;
+  font-weight: bold;
+  padding-left: 10px;
+  font-size: 1.1em;
+}
